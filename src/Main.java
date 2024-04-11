@@ -25,6 +25,22 @@ public class Main {
 //https:leetcode.com/problems/merge-strings-alternately/description/?envType=study-plan-v2&envId=leetcode-75
         MergeStringsAlternately.Solution MergeStringsAlternately = new MergeStringsAlternately.Solution();
         System.out.println(MergeStringsAlternately.mergeAlternately("abc", "pqr"));
+
+//https://leetcode.com/problems/single-number/description/
+        SingleNumber.Solution SingleNumber = new SingleNumber.Solution();
+        System.out.println(SingleNumber.singleNumber(new int[]{4, 1, 2, 1, 2}));
+
+//https://leetcode.com/problems/majority-element/description/
+        MajorityElement.Solution MajorityElement = new MajorityElement.Solution();
+        System.out.println(MajorityElement.majorityElement(new int[]{2, 2, 1, 1, 1, 2, 2}));
+
+//https://leetcode.com/problems/evaluate-reverse-polish-notation/description/
+        EvaluateReversePolishNotation.Solution EvaluateReversePolishNotation = new EvaluateReversePolishNotation.Solution();
+        System.out.println(EvaluateReversePolishNotation.evalRPN(new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}));
+
+//https://leetcode.com/problems/decode-string/?envType=study-plan-v2&envId=leetcode-75
+        DecodeString.Solution DecodeString = new DecodeString.Solution();
+        System.out.println(DecodeString.decodeString("3[a]2[bc]"));
     }
 }
 
